@@ -1,5 +1,6 @@
 import sys, time
 import pygame
+from networktables import NetworkTables
 
 try:
 	import launchpad_py as launchpad
@@ -9,6 +10,9 @@ except ImportError:
 	except ImportError:
 		sys.exit("ERROR: loading launchpad.py failed")
 
+# Network tables config:
+teamNumber = "5414"
+tableName = "Launchpad"
 
 # LED Arrays:
 leds = [
@@ -29,13 +33,16 @@ btns = [[False for x in range(9)] for y in range(9)]
 # reset pattern counter
 resetSenseTime = 0
 isPattern = False
+willReset = False
 
-# create an instance
+# create a Launchpad instance
 lp = launchpad.LaunchpadMk2();
 
+# initialize networktables
+NetworkTables.initialize(server='roborio-'+teamNumber+'-frc.local')
+lastPingValue = False
 
 def main():
-
     # open the first Launchpad Mk2
     if lp.Open(0, "mk2"):
         print(" - Launchpad Mk2: OK")
@@ -80,8 +87,8 @@ def main():
 def setColor(row, column, r, g, b, shifter=0) :
     lp.LedCtrlXY(column, row, min(63, r + shifter), min(63, g + shifter), min(63, b + shifter))
 
-def setAllColor(r, g, b):
-    lp.LedAllOn(r,g,b)
+def setAllColor(code):
+    lp.LedAllOn(code)
 
 # called on every pad press
 def received(r, c, isPressed):
@@ -107,16 +114,34 @@ def received(r, c, isPressed):
 
 
 def looper():
-    global isPattern
-    global resetSenseTime
+    global isPattern, resetSenseTime, willReset, lastPingValue
     currentTimeMillis = int(round(time.time() * 1000))
+
+    # get communication ping message from networktables
+    nt = NetworkTables.getTable(tableName)
+    pingValue = nt.getBoolean('pingValue', False)
+    if lastPingValue is not pingValue:
+        setColor(8,8,0,63,0)
+    else:
+        setColor(8,8,63,0,0)
+    lastPingValue = pingValue
+
+    # send networktables buttons
+    for r in range(9):
+        for c in range(9):
+            status = btns[r][c]
+            nt.putBoolean(str(r)+':'+str(c), status)
+
+    # reset checker
+    # buttons are still held down, ready to reset
     if isPattern and (currentTimeMillis - resetSenseTime) > 1000:
+        willReset = True
+        setAllColor(26)
+
+    # buttons let go, reset it
+    if willReset and not isPattern:
         isPattern = False
-
-        # show reset indication
-        setAllColor(0,63,0)
-        pygame.time.wait(500)
-
+        willReset = False
         main()
 
 
