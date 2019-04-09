@@ -18,9 +18,9 @@ leds = [
     [[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],
     [[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],
     [[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],
-    [[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],
-    [[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],
-    [[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],
+    [[0,0,0],[0,0,0],[0,63,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],
+    [[0,0,0],[0,0,0],[0,63,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],
+    [[0,0,0],[0,0,0],[0,63,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],
 ]
 
 
@@ -53,10 +53,18 @@ def main():
         column = str(stateArray[0])
         isPressed = stateArray[2] == 127
         print(row + " " + column + " " + str(isPressed))
+        received(stateArray[1], stateArray[0], isPressed)
 
+# sets color of an individual pad
+def setColor(row, column, r, g, b, shifter=0) :
+    lp.LedCtrlXY(column, row, min(63, r + shifter), min(63, g + shifter), min(63, b + shifter))
 
-def setColor(row, column, r, g, b, brightnessShifter=0) :
-    lp.LedCtrlXY(column, row, min(63, r+brightnessShifter), min(63, g+brightnessShifter), min(63, b+brightnessShifter))
-
+# called on every pad press
+def received(r, c, isPressed):
+    # change shifter color of pad to indicate press/release
+    if isPressed:
+        setColor(r, c, leds[r][c][0], leds[r][c][1], leds[r][c][2], 20)
+    else:
+        setColor(r, c, leds[r][c][0], leds[r][c][1], leds[r][c][2], 0)
 
 main()
