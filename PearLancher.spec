@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['PearLancher.py'],
-             pathex=['C:\\Users\\Allen\\Documents\\GitHub\\PearLanchpad'],
+             pathex=['C:\\Users\\Programming Team\\Documents\\GitHub\\PearLanchpad'],
              binaries=[],
              datas=[],
              hiddenimports=[],

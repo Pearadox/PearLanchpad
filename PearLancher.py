@@ -34,7 +34,11 @@ lp = launchpad.LaunchpadMk2();
 # initialize networktables
 NetworkTables.initialize(server='roborio-'+teamNumber+'-frc.local')
 nt = NetworkTables.getTable(tableName)
+
+# Rio connection monitor
 lastPingValue = False
+lastPingValueTime = 0
+pingMaxTimeMillis = 200
 
 def main():
     global btns
@@ -60,7 +64,7 @@ def main():
     setColor(0, 7, leds[0][7][0], leds[0][7][1], leds[0][7][2])
 
     while 1:
-        pygame.time.wait(10)
+        # pygame.time.wait(10)
 
         # call looper
         looper()
@@ -109,19 +113,23 @@ def received(r, c, isPressed):
 
 
 def looper():
-    global isPattern, resetSenseTime, willReset, lastPingValue, nt
+    global isPattern, resetSenseTime, willReset, lastPingValue, nt, lastPingValueTime
     currentTimeMillis = int(round(time.time() * 1000))
 
     # get ping from rio
     pingValue = nt.getBoolean('pingValueRio', False)
     if lastPingValue is not pingValue:
-        setColor(8,8,0,63,0)
+        lastPingValueTime = currentTimeMillis
+    if(currentTimeMillis - lastPingValueTime < pingMaxTimeMillis):
+        # is connected
+        setColor(8, 8, 0, 63, 0)
     else:
-        setColor(8,8,63,0,0)
+        # is not connected
+        setColor(8, 8, 63, 0, 0)
     lastPingValue = pingValue
 
     # send launchpad ping
-    nt.putBoolean('pingValueLaunchpad', nt.getBoolean('pingValueLaunchpad', False))
+    nt.putBoolean('pingValueLaunchpad', not nt.getBoolean('pingValueLaunchpad', False))
 
     # send networktables buttons
     for r in range(9):
