@@ -12,9 +12,9 @@ leds = [
     [[60,0,60],[60,0,60],[63,10,0],[0,0,0],[63,0,0],[0,0,0],[63,10,0],[63,10,0],[0,0,0]],
     [[60,0,60],[60,0,60],[0,0,0],[0,0,0],[0,63,0],[0,63,0],[20,20,20],[20,20,20],[20,20,20]],
     [[0,0,0],[0,0,0],[0,0,0],[0,0,0],[50,30,0],[50,30,0],[0,30,30],[0,30,30],[0,30,30]],
-    [[0,0,0],[0,0,0],[0,0,0],[63,10,0],[63,10,0],[63,10,0],[63,10,0],[63,10,0],[63,10,0]],
-    [[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],
-    [[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],
+    [[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[30,10,0],[30,10,0],[63,10,0]],
+    [[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[63,10,0]],
+    [[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[63,10,0]],
     [[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],
     [[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],
     [[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],
@@ -33,20 +33,22 @@ lp = launchpad.LaunchpadMk2();
 
 # initialize networktables
 NetworkTables.initialize(server='roborio-'+teamNumber+'-frc.local')
+nt = NetworkTables.getTable(tableName)
 lastPingValue = False
 
 def main():
+    global btns
     # open the first Launchpad Mk2
     if lp.Open(0, "mk2"):
         print(" - Launchpad Mk2: OK")
     else:
-        print(" - Launchpad Mk2: ERROR")
+        print(" - Launchpad Mk2: ERROR (most likely not connected)")
         return
 
     # Clear the buffer because the Launchpad remembers everything
     lp.ButtonFlush()
     lp.Reset()
-    global btns
+
     btns = [[False for x in range(9)] for y in range(9)]
 
     pygame.time.wait(100)
@@ -107,17 +109,19 @@ def received(r, c, isPressed):
 
 
 def looper():
-    global isPattern, resetSenseTime, willReset, lastPingValue
+    global isPattern, resetSenseTime, willReset, lastPingValue, nt
     currentTimeMillis = int(round(time.time() * 1000))
 
-    # get communication ping message from networktables
-    nt = NetworkTables.getTable(tableName)
-    pingValue = nt.getBoolean('pingValue', False)
+    # get ping from rio
+    pingValue = nt.getBoolean('pingValueRio', False)
     if lastPingValue is not pingValue:
         setColor(8,8,0,63,0)
     else:
         setColor(8,8,63,0,0)
     lastPingValue = pingValue
+
+    # send launchpad ping
+    nt.putBoolean('pingValueLaunchpad', nt.getBoolean('pingValueLaunchpad', False))
 
     # send networktables buttons
     for r in range(9):

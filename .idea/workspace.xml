@@ -4,8 +4,16 @@
     <list default="true" id="a89d6a4a-4956-47a8-8aa9-d53f81f8ef5d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PearLancher.py" beforeDir="false" afterPath="$PROJECT_DIR$/PearLancher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/charset.py" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries/charset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launchpad.py" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries/launchpad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PearLancher/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/PearLancher/Analysis-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PearLancher/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/PearLancher/EXE-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PearLancher/PKG-00.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/build/PearLancher/PKG-00.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PearLancher/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/PearLancher/PKG-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PearLancher/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/build/PearLancher/PYZ-00.pyz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PearLancher/PYZ-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/PearLancher/PYZ-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PearLancher/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/PearLancher/base_library.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PearLancher/warn-PearLancher.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/PearLancher/warn-PearLancher.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PearLancher/xref-PearLancher.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/PearLancher/xref-PearLancher.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/PearLancher.exe" beforeDir="false" afterPath="$PROJECT_DIR$/dist/PearLancher.exe" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +27,8 @@
       <file leaf-file-name="PearLancher.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PearLancher.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+            <state relative-caret-position="280">
+              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -71,7 +79,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -82,12 +89,18 @@
             <path>
               <item name="PearLanchpad" type="b2602c69:ProjectViewProjectNode" />
               <item name="PearLanchpad" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PearLanchpad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PearLanchpad" type="462c0819:PsiDirectoryNode" />
               <item name="Libraries" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,36 +213,39 @@
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13958333" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1390625" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.28672746" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Python Console" order="0" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.27152988" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13945803" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.27211797" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Python Console" order="0" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32928064" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info id="Favorites" order="0" side_tool="true" />
     </layout>
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/PearLancher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PearLancher.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
@@ -291,24 +307,11 @@
     <entry file="file://$PROJECT_DIR$/Launchpad_Blank.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui2py.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ui2py.bat" />
     <entry file="file://$USER_HOME$/Desktop/launchpad.py-master/examples/launchpad_mk2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py2exe.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -322,10 +325,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/py2exe.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PearLancher.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        <state relative-caret-position="280">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
