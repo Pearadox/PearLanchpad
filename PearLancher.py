@@ -1,14 +1,7 @@
 import sys, time
 import pygame
 from networktables import NetworkTables
-
-try:
-	import launchpad_py as launchpad
-except ImportError:
-	try:
-		import launchpad
-	except ImportError:
-		sys.exit("ERROR: loading launchpad.py failed")
+from Libraries import launchpad
 
 # Network tables config:
 teamNumber = "5414"
@@ -142,6 +135,7 @@ def looper():
     if willReset and not isPattern:
         isPattern = False
         willReset = False
+        print("Resetting!")
         main()
 
 

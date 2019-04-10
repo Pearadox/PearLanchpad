@@ -4,6 +4,8 @@
     <list default="true" id="a89d6a4a-4956-47a8-8aa9-d53f81f8ef5d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PearLancher.py" beforeDir="false" afterPath="$PROJECT_DIR$/PearLancher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/charset.py" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries/charset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launchpad.py" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries/launchpad.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,29 +19,11 @@
       <file leaf-file-name="PearLancher.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PearLancher.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="129" column="22" lean-forward="true" selection-start-line="129" selection-start-column="22" selection-end-line="129" selection-end-column="22" />
+            <state relative-caret-position="60">
+              <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="launchpad_mk2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/launchpad.py-master/examples/launchpad_mk2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommandList.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CommandList.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -71,6 +55,7 @@
         <option value="$PROJECT_DIR$/../launchpad.py-master/examples/launchpad_mk2.py" />
         <option value="$PROJECT_DIR$/pearLancher.py" />
         <option value="$PROJECT_DIR$/CommandList.txt" />
+        <option value="$PROJECT_DIR$/py2exe.bat" />
         <option value="$PROJECT_DIR$/PearLancher.py" />
       </list>
     </option>
@@ -94,6 +79,11 @@
               <item name="PearLanchpad" type="b2602c69:ProjectViewProjectNode" />
               <item name="PearLanchpad" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PearLanchpad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PearLanchpad" type="462c0819:PsiDirectoryNode" />
+              <item name="Libraries" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -105,7 +95,11 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Allen\Documents\GitHub\PearLanchpad\Libraries" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Allen\Documents\GitHub\PearLanchpad" />
       <recent name="C:\Users\Allen\Desktop\Lancher" />
     </key>
   </component>
@@ -209,7 +203,7 @@
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13958333" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.28672746" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.28672746" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Python Console" order="0" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
@@ -248,14 +242,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../launchpad.py-master/launchpad_py/__init__.py" />
     <entry file="file://$PROJECT_DIR$/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/launchpad.py">
+    <entry file="file://$PROJECT_DIR$/Libraries/launchpad.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/charset.py">
+    <entry file="file://$PROJECT_DIR$/Libraries/charset.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../launchpad.py-master/examples/launchpad_mk2.py" />
@@ -282,14 +276,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../launchpad.py-master/launchpad_py/__init__.py" />
     <entry file="file://$PROJECT_DIR$/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/launchpad.py">
+    <entry file="file://$PROJECT_DIR$/Libraries/launchpad.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/charset.py">
+    <entry file="file://$PROJECT_DIR$/Libraries/charset.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../launchpad.py-master/examples/launchpad_mk2.py" />
@@ -297,10 +291,10 @@
     <entry file="file://$PROJECT_DIR$/Launchpad_Blank.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CommandList.txt">
+    <entry file="file://$PROJECT_DIR$/ui2py.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        <state>
+          <caret column="21" selection-start-column="14" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -311,10 +305,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/py2exe.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PearLancher.spec">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommandList.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PearLancher.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="129" column="22" lean-forward="true" selection-start-line="129" selection-start-column="22" selection-end-line="129" selection-end-column="22" />
+        <state relative-caret-position="60">
+          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
