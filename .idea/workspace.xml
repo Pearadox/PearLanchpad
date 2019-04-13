@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a89d6a4a-4956-47a8-8aa9-d53f81f8ef5d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Lancher.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lancher.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PearLancher.py" beforeDir="false" afterPath="$PROJECT_DIR$/PearLancher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PearLancher.spec" beforeDir="false" afterPath="$PROJECT_DIR$/PearLancher.spec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/PearLancher/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/PearLancher/Analysis-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/PearLancher/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/PearLancher/EXE-00.toc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/PearLancher/PKG-00.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/build/PearLancher/PKG-00.pkg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/PearLancher/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/PearLancher/PKG-00.toc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/PearLancher/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/build/PearLancher/PYZ-00.pyz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/PearLancher/PYZ-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/PearLancher/PYZ-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/PearLancher/PearLancher.exe.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/build/PearLancher/PearLancher.exe.manifest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/PearLancher/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/PearLancher/base_library.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/PearLancher/warn-PearLancher.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/PearLancher/warn-PearLancher.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/PearLancher/xref-PearLancher.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/PearLancher/xref-PearLancher.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/PearLancher.exe" beforeDir="false" afterPath="$PROJECT_DIR$/dist/PearLancher.exe" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PearLancher.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5">
-              <caret line="108" column="13" lean-forward="true" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
+            <state relative-caret-position="289">
+              <caret line="17" column="80" lean-forward="true" selection-start-line="17" selection-start-column="80" selection-end-line="17" selection-end-column="80" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -42,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/py2exe.bat">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+              <caret column="29" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -85,11 +79,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1039" />
-    <option name="height" value="769" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1040" />
+    <option name="height" value="770" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -240,15 +234,15 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13879709" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.07270324" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Python Console" order="0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.19971672" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.19971672" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32928064" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.27053824" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.27053824" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -288,25 +282,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Launchpad Filled.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py2exe.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PearLancher.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="108" column="13" lean-forward="true" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
+        <state relative-caret-position="289">
+          <caret line="17" column="80" lean-forward="true" selection-start-line="17" selection-start-column="80" selection-end-line="17" selection-end-column="80" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py2exe.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Launchpad Filled.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>

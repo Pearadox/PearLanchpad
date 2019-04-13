@@ -4,6 +4,18 @@
    'c:\\users\\programming '
    'team\\appdata\\local\\programs\\python\\python37-32\\lib\\site-packages\\pkg_resources\\__init__.py',
    'PYMODULE'),
+  ('pkg_resources._vendor.packaging._structures',
+   'c:\\users\\programming '
+   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging',
+   'c:\\users\\programming '
+   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.markers',
+   'c:\\users\\programming '
+   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
   ('pkg_resources._vendor.pyparsing',
    'c:\\users\\programming '
    'team\\appdata\\local\\programs\\python\\python37-32\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py',
@@ -44,53 +56,41 @@
    'c:\\users\\programming '
    'team\\appdata\\local\\programs\\python\\python37-32\\lib\\ctypes\\_endian.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.__about__',
+  ('pkg_resources._vendor.packaging.specifiers',
    'c:\\users\\programming '
-   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging._compat',
-   'c:\\users\\programming '
-   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging',
-   'c:\\users\\programming '
-   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
    'PYMODULE'),
   ('pkg_resources._vendor.packaging.version',
    'c:\\users\\programming '
    'team\\appdata\\local\\programs\\python\\python37-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging._structures',
-   'c:\\users\\programming '
-   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
-   'PYMODULE'),
   ('pkg_resources._vendor.packaging.requirements',
    'c:\\users\\programming '
    'team\\appdata\\local\\programs\\python\\python37-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.utils',
-   'c:\\users\\programming '
-   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.appdirs',
-   'c:\\users\\programming '
-   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.specifiers',
-   'c:\\users\\programming '
-   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
    'PYMODULE'),
   ('pkg_resources._vendor',
    'c:\\users\\programming '
    'team\\appdata\\local\\programs\\python\\python37-32\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.markers',
+  ('pkg_resources._vendor.packaging.utils',
    'c:\\users\\programming '
-   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._compat',
+   'c:\\users\\programming '
+   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
    'PYMODULE'),
   ('pkg_resources._vendor.six',
    'c:\\users\\programming '
    'team\\appdata\\local\\programs\\python\\python37-32\\lib\\site-packages\\pkg_resources\\_vendor\\six.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.__about__',
+   'c:\\users\\programming '
+   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.appdirs',
+   'c:\\users\\programming '
+   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
    'PYMODULE'),
   ('__main__',
    'C:\\Users\\Programming '
@@ -572,13 +572,13 @@
    'c:\\users\\programming '
    'team\\appdata\\local\\programs\\python\\python37-32\\lib\\datetime.py',
    'PYMODULE'),
-  ('stringprep',
+  ('fnmatch',
    'c:\\users\\programming '
-   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\stringprep.py',
+   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\fnmatch.py',
    'PYMODULE'),
-  ('tracemalloc',
+  ('_compat_pickle',
    'c:\\users\\programming '
-   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\tracemalloc.py',
+   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\_compat_pickle.py',
    'PYMODULE'),
   ('__future__',
    'c:\\users\\programming '
@@ -740,10 +740,6 @@
    'c:\\users\\programming '
    'team\\appdata\\local\\programs\\python\\python37-32\\lib\\uu.py',
    'PYMODULE'),
-  ('quopri',
-   'c:\\users\\programming '
-   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\quopri.py',
-   'PYMODULE'),
   ('email.feedparser',
    'c:\\users\\programming '
    'team\\appdata\\local\\programs\\python\\python37-32\\lib\\email\\feedparser.py',
@@ -791,10 +787,6 @@
   ('email.charset',
    'c:\\users\\programming '
    'team\\appdata\\local\\programs\\python\\python37-32\\lib\\email\\charset.py',
-   'PYMODULE'),
-  ('base64',
-   'c:\\users\\programming '
-   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\base64.py',
    'PYMODULE'),
   ('email._encoded_words',
    'c:\\users\\programming '
@@ -848,17 +840,9 @@
    'c:\\users\\programming '
    'team\\appdata\\local\\programs\\python\\python37-32\\lib\\email\\message.py',
    'PYMODULE'),
-  ('bz2',
-   'c:\\users\\programming '
-   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\bz2.py',
-   'PYMODULE'),
   ('lzma',
    'c:\\users\\programming '
    'team\\appdata\\local\\programs\\python\\python37-32\\lib\\lzma.py',
-   'PYMODULE'),
-  ('_compression',
-   'c:\\users\\programming '
-   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\_compression.py',
    'PYMODULE'),
   ('gzip',
    'c:\\users\\programming '
@@ -892,10 +876,6 @@
    'c:\\users\\programming '
    'team\\appdata\\local\\programs\\python\\python37-32\\lib\\pydoc.py',
    'PYMODULE'),
-  ('getopt',
-   'c:\\users\\programming '
-   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\getopt.py',
-   'PYMODULE'),
   ('pdb',
    'c:\\users\\programming '
    'team\\appdata\\local\\programs\\python\\python37-32\\lib\\pdb.py',
@@ -912,21 +892,9 @@
    'c:\\users\\programming '
    'team\\appdata\\local\\programs\\python\\python37-32\\lib\\string.py',
    'PYMODULE'),
-  ('_compat_pickle',
-   'c:\\users\\programming '
-   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\_compat_pickle.py',
-   'PYMODULE'),
-  ('pickle',
-   'c:\\users\\programming '
-   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\pickle.py',
-   'PYMODULE'),
   ('logging',
    'c:\\users\\programming '
    'team\\appdata\\local\\programs\\python\\python37-32\\lib\\logging\\__init__.py',
-   'PYMODULE'),
-  ('pprint',
-   'c:\\users\\programming '
-   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\pprint.py',
    'PYMODULE'),
   ('unittest.case',
    'c:\\users\\programming '
@@ -935,10 +903,6 @@
   ('unittest.suite',
    'c:\\users\\programming '
    'team\\appdata\\local\\programs\\python\\python37-32\\lib\\unittest\\suite.py',
-   'PYMODULE'),
-  ('fnmatch',
-   'c:\\users\\programming '
-   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\fnmatch.py',
    'PYMODULE'),
   ('unittest.loader',
    'c:\\users\\programming '
@@ -964,37 +928,41 @@
    'c:\\users\\programming '
    'team\\appdata\\local\\programs\\python\\python37-32\\lib\\doctest.py',
    'PYMODULE'),
-  ('token',
+  ('pprint',
    'c:\\users\\programming '
-   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\token.py',
+   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\pprint.py',
    'PYMODULE'),
-  ('struct',
+  ('pickle',
    'c:\\users\\programming '
-   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\struct.py',
+   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\pickle.py',
    'PYMODULE'),
-  ('gettext',
+  ('tracemalloc',
    'c:\\users\\programming '
-   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\gettext.py',
+   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\tracemalloc.py',
    'PYMODULE'),
-  ('textwrap',
+  ('quopri',
    'c:\\users\\programming '
-   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\textwrap.py',
+   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\quopri.py',
    'PYMODULE'),
-  ('argparse',
+  ('_compression',
    'c:\\users\\programming '
-   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\argparse.py',
+   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\_compression.py',
    'PYMODULE'),
-  ('tokenize',
+  ('bz2',
    'c:\\users\\programming '
-   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\tokenize.py',
+   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\bz2.py',
    'PYMODULE'),
-  ('copy',
+  ('stringprep',
    'c:\\users\\programming '
-   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\copy.py',
+   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\stringprep.py',
    'PYMODULE'),
-  ('typing',
+  ('getopt',
    'c:\\users\\programming '
-   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\typing.py',
+   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\getopt.py',
+   'PYMODULE'),
+  ('base64',
+   'c:\\users\\programming '
+   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\base64.py',
    'PYMODULE'),
   ('stat',
    'c:\\users\\programming '
@@ -1011,10 +979,6 @@
   ('signal',
    'c:\\users\\programming '
    'team\\appdata\\local\\programs\\python\\python37-32\\lib\\signal.py',
-   'PYMODULE'),
-  ('contextlib',
-   'c:\\users\\programming '
-   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\contextlib.py',
    'PYMODULE'),
   ('_threading_local',
    'c:\\users\\programming '
@@ -1036,9 +1000,45 @@
    'c:\\users\\programming '
    'team\\appdata\\local\\programs\\python\\python37-32\\lib\\os.py',
    'PYMODULE'),
+  ('token',
+   'c:\\users\\programming '
+   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\token.py',
+   'PYMODULE'),
+  ('struct',
+   'c:\\users\\programming '
+   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\struct.py',
+   'PYMODULE'),
+  ('gettext',
+   'c:\\users\\programming '
+   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\gettext.py',
+   'PYMODULE'),
+  ('copy',
+   'c:\\users\\programming '
+   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\copy.py',
+   'PYMODULE'),
+  ('textwrap',
+   'c:\\users\\programming '
+   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\textwrap.py',
+   'PYMODULE'),
+  ('argparse',
+   'c:\\users\\programming '
+   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\argparse.py',
+   'PYMODULE'),
+  ('tokenize',
+   'c:\\users\\programming '
+   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\tokenize.py',
+   'PYMODULE'),
   ('_py_abc',
    'c:\\users\\programming '
    'team\\appdata\\local\\programs\\python\\python37-32\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('contextlib',
+   'c:\\users\\programming '
+   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('typing',
+   'c:\\users\\programming '
+   'team\\appdata\\local\\programs\\python\\python37-32\\lib\\typing.py',
    'PYMODULE'),
   ('Libraries.launchpad',
    'C:\\Users\\Programming '
