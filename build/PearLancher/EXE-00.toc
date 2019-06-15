@@ -62,17 +62,9 @@
    'c:\\users\\programming '
    'team\\appdata\\local\\programs\\python\\python37-32\\DLLs\\pyexpat.pyd',
    'EXTENSION'),
-  ('unicodedata',
-   'c:\\users\\programming '
-   'team\\appdata\\local\\programs\\python\\python37-32\\DLLs\\unicodedata.pyd',
-   'EXTENSION'),
   ('_hashlib',
    'c:\\users\\programming '
    'team\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_hashlib.pyd',
-   'EXTENSION'),
-  ('_bz2',
-   'c:\\users\\programming '
-   'team\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_bz2.pyd',
    'EXTENSION'),
   ('_lzma',
    'c:\\users\\programming '
@@ -82,9 +74,17 @@
    'c:\\users\\programming '
    'team\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_socket.pyd',
    'EXTENSION'),
+  ('unicodedata',
+   'c:\\users\\programming '
+   'team\\appdata\\local\\programs\\python\\python37-32\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
   ('select',
    'c:\\users\\programming '
    'team\\appdata\\local\\programs\\python\\python37-32\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_bz2',
+   'c:\\users\\programming '
+   'team\\appdata\\local\\programs\\python\\python37-32\\DLLs\\_bz2.pyd',
    'EXTENSION'),
   ('pygame.time',
    'c:\\users\\programming '
@@ -306,7 +306,7 @@
  [],
  False,
  False,
- 1554932062,
+ 1555465637,
  [('run.exe',
    'c:\\users\\programming '
    'team\\appdata\\local\\programs\\python\\python37-32\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-32bit\\run.exe',
